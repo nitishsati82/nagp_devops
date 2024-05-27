@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: spring-boot-app
-          image: nitishsati8/nagp_devops:2
+          image: nitishsati8/nagp_devops:3
           imagePullPolicy: Always
           ports:
             - containerPort: 8080
