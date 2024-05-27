@@ -2,14 +2,11 @@ spring:
   application:
     name: devops-practice
   datasource:
-    url: jdbc:h2:mem:testdb
-    driver-class-name: org.h2.Driver
-    username: sa
-    password: password
+    url: jdbc:mysql://sql12.freesqldatabase.com:3306/sql12709706
+    username: sql12709706
+    password: 9zKgSxYzIu
+    driver-class-name: com.mysql.cj.jdbc.Driver
   jpa:
-    show-sql: false
     hibernate:
       ddl-auto: update
-  h2:
-    console:
-      enabled: true
+    show-sql: true
